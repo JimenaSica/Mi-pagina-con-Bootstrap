@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mi Página Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-primary bg-gradient" style="--bs-bg-opacity: 25%;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi Sitio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-white" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#sobre-mi">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="container mt-5">
+        <h1 class="text-center text-primary mb-4">
+            -------------------------------------------------------------------------- </h1>
+
+        <!-- Sección Inicio -->
+        <section id="inicio" class="row align-items-center mb-5">
+            <div class="col-md-4 text-center mb-3">
+                <img src="mifoto.jpeg" alt="Mi Foto" class="img-fluid rounded-circle border border-primary border-5"
+                    style="max-width: 280px;">
+            </div>
+            <div class="col-md-8 text-center text-md-start">
+                <h2 class="text-primary fs-1 fw-bold">Jimena Sicajá 👩‍💻</h2>
+                <p class="card-text text-primary-emphasis">Estudiante de 4to Bachillerato con interés en la programación
+                    web y el diseño digital.</p>
+            </div>
+        </section>
+
+        <!-- Sobre Mí -->
+        <section id="sobre-mi" class="mb-5">
+            <div class="card shadow-sm border-0">
+                <div class="card-body text-center">
+                    <h3 class="card-title text-primary">Sobre Mí</h3>
+                    <p class="card-text text-primary-emphasis">Me apasiona la tecnología, los proyectos creativos y el
+                        aprendizaje constante. Me gustan mantenerme activa, practicar deportes y mejorar en todo lo que hago. Soy buena trabajando en equipo y me identifico como una buena líder.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Características y Habilidades -->
+        <section class="mb-5 text-center">
+            <h4 class="text-primary">Características y Habilidades</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item text-primary-emphasis"> - Conocimiento de HTML5 y CSS3</li>
+                <li class="list-group-item text-primary-emphasis"> - Uso básico de Bootstrap 5</li>
+                <li class="list-group-item text-primary-emphasis"> - Trabajo en equipo</li>
+                <li class="list-group-item text-primary-emphasis"> - Practicar deportes</li>
+                <li class="list-group-item text-primary-emphasis"> - Creatividad</li>
+                <li class="list-group-item text-primary-emphasis"> - Orden y organización</li>
+                <li class="list-group-item text-primary-emphasis"> - Practica de valores y ética</li>
+            </ul>
+        </section>
+
+        <!-- Formación Académica -->
+        <section class="mb-5">
+            <h4 class="text-primary">Formación Académica</h4>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th class="bg-primary bg-gradient text-primary-emphasis" style="--bs-bg-opacity: 45%;">Año
+                            </th>
+                            <th class="bg-primary bg-gradient text-primary-emphasis" style="--bs-bg-opacity: 45%;">
+                                Institución</th>
+                            <th class="bg-primary bg-gradient text-primary-emphasis" style="--bs-bg-opacity: 45%;">Grado
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-primary-emphasis">2015-2024</td>
+                            <td class="text-primary-emphasis">Colegio Mixto Guatemala</td>
+                            <td class="text-primary-emphasis">Preprimaria - Primaria - Básicos</td>
+                        </tr>
+                        <tr>
+                            <td class="text-primary-emphasis">2025</td>
+                            <td class="text-primary-emphasis">Colegio Sagrado Corazón de Jesús</td>
+                            <td class="text-primary-emphasis">4to Bachillerato</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Contacto -->
+        <section id="contacto" class="mt-5 text-primary">
+            <h4 class="text-primary">Contacto</h4>
+            <table class="table table-bordered table-striped">
+                <tbody>
+                    <thead>
+                        <tr>
+                            <th scope="row" class="text-primary-emphasis bg-primary bg-gradient" style="--bs-bg-opacity: 45%;">Email</th>
+                            <th scope="row" class="text-primary-emphasis bg-primary bg-gradient" style="--bs-bg-opacity: 45%;"> Instagram </th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td><a href="mailto:jimenasicajam@gmail.com" class="text-decoration-none text-primary-emphasis">jimenasicajam@gmail.com</a></td>
+                        <td><a href="https://www.instagram.com/mars.xsica" target="_blank" class="text-decoration-none text-primary-emphasis">@mars.xsica</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="bg-primary bg-gradient text-white text-center py-3 mt-4">
+            <p class="mb-0">© 2025 Jimena Mariel Sicajá Monzón | Sitio web creado con Bootstrap 5</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
